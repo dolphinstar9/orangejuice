@@ -1,0 +1,87 @@
+/*always include this in the body of the page by default it will give you something totally different*/
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+/*this sizes the border of the nav bar pay attention to the padding*/
+nav {
+  padding-right: 18px;
+  color: white;
+  background-color: #FB7F01;
+  height: 50px;
+  font-size: 20px;
+}
+/*this will place the search area be sure to call the id*/
+#search {
+  float: right;
+}
+/*the ul and the li style the font in the nav bar */
+li {
+  display: inline-block;
+  margin: 0;
+}
+
+ul {
+  text-align: right;
+  margin: 4px 8px;
+}
+/*this will hover over the text in the nav bar and it will change color*/
+a:hover {
+  color: yellow;
+}
+/*the color of the text*/
+a {
+  color: white;
+  text-decoration: none;
+  margin-left: auto;
+  padding: 10px;
+}
+/*the main text of the body*/
+header {
+  color: orange;
+  text-align: right;
+  font-size: 20px;
+  font-family: 'Blibo', cursive;
+  padding-right: 30px;
+  text-decoration: inherit;
+
+}
+/*this is calling the id of the orange picture*/
+#left {
+  float: left;
+  padding: 170px 0 0 150px;
+}
+/*this is calling the id of the text on the right of the page*/
+#right {
+  float: right;
+  padding: 200px 0 0 0;
+}
+/*this is giving it position and color*/
+#right h1, p {
+  color: #FE7E00;
+}
+/*this is for the buttons under text adjustments can be made*/
+button {
+  height: 80px;
+  width: 160px;
+  color: white;
+  border-radius: 5px;
+}
+/*this is giving it color for the left button*/
+#leftbutton {
+  background-color: #Fe7E00;
+}
+/*this is giving the right button background color*/
+#rightbutton {
+  background-color: #7ACBC8;
+}
+/*pay attention to the position of the footer and how to position it*/
+footer {
+  height: 100px;
+  background-color: #7ACBC8;
+  bottom: 0px;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
